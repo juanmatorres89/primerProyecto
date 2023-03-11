@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+p{
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    margin-right: 400px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align:left;
+    line-height: 30px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    color: white;
+}
+
+/* index */
+
+.menu li{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: -500px;
+}
+
+.submenu{
+    display: none ;
+    position: absolute;
+    color: white;
+    list-style: none;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+.logoIndex{
+    width: 20%;
+    margin-left: 40px;
+    margin-right: 100px;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.logo .p .a .img{
+    width: 40%;
+    height: 400%;
+}
+
+nav{
+    width: 120%;
+    height: 70px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+h1, p, a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: rgb(253, 253, 253);
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.border-radius{
+    border-radius: 50%;
+    color: rgb(248, 246, 249);
+}
+
+footer{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    height: 100%;
+}
+
+.contenedorImg{
+    width: 100%;
+}
+
+.foto1Index{
+    width: 97%;
+    height: 900px;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+/* integrantes */
+
+.integrantess{
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    margin-right: 400px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.imagint{
+    width: 90%;
+    height: 800px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 30px;
+}
+
+.yamila{
+    width: 90%;
+    border-radius: 30px;
+}
+
+.bouzo{
+    width: 90%;
+    border-radius: 30px;
+}
+
+.gustavo{
+    width: 90%;
+    border-radius: 30px;
+}
+
+.tony{
+    width: 90%;
+    border-radius: 30px;
+}
+
+
+.integrantesFotos{ 
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 15px;
+    padding: 1%;
+    justify-content: center;
+}
+
+.intSinfin{    
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 450px;
+    border-radius: 30px;
+}
+
+
+.escenarioSinfin{
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-radius: 30px;
+    margin-left: 300px;
+    margin-right: 500px;
+}
+
+
+/* Discografia */
+
+.fotodisc1{
+    width: 40%;
+    height: 500px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 50px;
+}
+
+.fotodisc2{
+    width: 40%;
+    height: 500px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 50px;
+}
+
+.falsaluz{
+    display: flex;
+    justify-content: left;
+}
+
+/* biografia */
+
+#tituloBio{
+    margin-top: 50px;
+}
+
+#biografia{
+    margin-left: 10px;
+    line-height: 50px;
+}
+
+
+.primerParrafo{
+    text-transform: capitalize;
+    font-size: 30px;
+    background-color: white ;
+}
+
+
+/* Contacto */
+
+#tituloContacto{
+    margin-top: 50px;
+}
+
+#contenedorContacto{
+    display: flex;
+}
+
+.contactoTexto{ 
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+}
+
+.imgContacto{
+    width: 500px;
+    margin-left: 500px;
+}
+
+/* Imagenes */
+
+.img{
+    width: 350px;
+    height: 250px;
+    margin-left: 15px ;
+}
+
+.imagenesBanda{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
